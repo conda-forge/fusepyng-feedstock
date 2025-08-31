@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    # Ideally, we'd have a CDT dependency on libfuse here.
+    # Ideally, we'd have a CDT dependency on libfuse3 here.
 
 test:
   requires:
